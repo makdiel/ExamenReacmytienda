@@ -25,7 +25,6 @@ export const Categorias = () => {
         }
 
     ];
-
     return (
         <>
             <div className='container card mt-4' >
@@ -38,7 +37,6 @@ export const Categorias = () => {
                                 <th>{item.id}</th>
                                 <th>{item.Nombre} </th>
                             </tr>
-
                         ))}
 
                     </tbody>
